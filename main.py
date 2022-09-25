@@ -28,8 +28,8 @@ if __name__ == "__main__":
         filename = sys.argv[1]
         remove_duplicates = sys.argv[2].lower() == "yes"
     else:
-        print("Se debe indicar el fichero como primer argumento")
-        print("El segundo argumento indica si se quieren eliminar duplicados")
+        print("The file must be indicated as the first argument")
+        print("The second argument indicates if you want to remove duplicates.")
         sys.exit(1)
 
     print(f"Se leerán las palabras del fichero {filename}")
